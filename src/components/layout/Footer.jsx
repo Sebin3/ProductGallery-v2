@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '/src/assets/icon2.png';
 import { motion } from 'framer-motion';
 import { 
   Facebook, 
@@ -100,7 +101,7 @@ const Footer = () => {
             >
               <div className="flex items-center space-x-2">
                 <div className="w-10 h-10 rounded-full flex items-center justify-center overflow-hidden">
-                  <img src="/src/assets/icon2.png" alt="ProductGallery" className="w-full h-full object-cover" />
+                  <img src={image} alt="ProductGallery" className="w-full h-full object-cover" />
                 </div>
                 <span className="text-xl font-bold">ProductGallery</span>
               </div>
