@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Users, Award, Star } from 'lucide-react';
+import  imageSe from '../../assets/Sebas.jpg';
+import  imagePi from '../../assets/Piero.png';
+import  imageGa  from '../../assets/Gabriel.jpg';
 
 const TeamModal = ({ isOpen, onClose }) => {
   const teamMembers = [
@@ -8,19 +11,19 @@ const TeamModal = ({ isOpen, onClose }) => {
       id: 1,
       name: 'Sebastian Perez',
       role: 'Desarrollador Frontend',
-      image: '/src/assets/Sebas.jpg',
+      image: imageSe,
     },
     {
       id: 2,
       name: 'Piero Aguillar', 
       role: 'Desarrollador Frontend',
-      image: '../src/assets/Piero.png', // Cambiarás esto por la imagen real
+      image: imagePi, // Cambiarás esto por la imagen real
     },
     {
       id: 3,
       name: 'Gabriel Tuñoque',
       role: 'Desarrollador Frontend',
-      image: '/src/assets/Gabriel.jpg', // Cambiarás esto por la imagen real
+      image: imageGa, // Cambiarás esto por la imagen real
     }
   ];
 
