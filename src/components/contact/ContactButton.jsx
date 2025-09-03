@@ -26,7 +26,7 @@ const ContactButton = () => {
         transition={{ delay: 1, type: "spring", bounce: 0.6 }}
       >
         <motion.button
-          className="relative bg-gradient-to-r from-primary-600  text-white p-4 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group"
+          className="relative bg-gradient-to-r from-primary-900  text-white p-4 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onHoverStart={() => setIsExpanded(true)}
