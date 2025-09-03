@@ -6,6 +6,7 @@ import { useProducts } from '../../context/ProductContext';
 import Cart from '../cart/Cart';
 import CategoryDropdown from '../categories/CategoryDropdown';
 import TeamModal from '../team/TeamModal';
+import logo from '/src/assets/icon2.png';
 
 const Navbar = ({ currentPage, setCurrentPage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -66,7 +67,7 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
               className="flex items-center space-x-2"
             >
               <div className="w-10 h-10 rounded-full flex items-center justify-center overflow-hidden">
-                <img src="/src/assets/icon2.png" alt="ProductGallery" className="w-full h-full object-cover" />
+                <img src={logo} alt="ProductGallery" className="w-full h-full object-cover" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
                 ProductGallery
